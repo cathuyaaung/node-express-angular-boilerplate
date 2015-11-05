@@ -46,14 +46,13 @@ Boilerplate for Projects
 	app.use('/views', express.static('views')); //this will allow serving files in /views at /views
 
 	// Directory Listing 
-	app.use('/views', serveIndex('views', {'icons': true}))
-
+	app.use('/', serveIndex('views', {'icons': true}))
+	//this will list all files in /views at the start of the page http://localhost:3000
 
 	// respond with "Hello World!" on the homepage
-	app.get('/', function (req, res) {
-	  res.send('Hello World!');
-	});
-
+	// app.get('/', function (req, res) {
+	//   res.send('<h1><a href="">Exercises</a></h1>');
+	// });
 
 	var server = app.listen(3000, function () {
 	  var host = server.address().address;
