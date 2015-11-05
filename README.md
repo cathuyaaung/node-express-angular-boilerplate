@@ -22,6 +22,7 @@ https://www.udemy.com/learn-angularjs/learn/#/
     - add node_components
     - add bower_components
 - create [server.js](http://expressjs.com/starter/hello-world.html)
+- npm install serve-index --save //to allow directory listing
 - update server.js 
 	```javascript
 	var express = require('express');
