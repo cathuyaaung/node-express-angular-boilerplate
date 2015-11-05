@@ -68,7 +68,7 @@ Boilerplate for Projects
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Creating a directive</title>
+	<title>Boilerplate</title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<!-- Bootstrap Theme -->
@@ -76,7 +76,9 @@ Boilerplate for Projects
 	<script src="/bower_components/angular/angular.min.js"></script>
 </head>
 <body>
-	
+	<div class="container">
+		<h1>Boilerplate</h1>
+	</div>
 
 	<!-- jQuery -->
 	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
