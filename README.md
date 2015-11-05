@@ -90,5 +90,7 @@ Boilerplate for Projects
 
 # Tips
 1. Sublime Text
-	1. Create full HTML tempalte
+	- Create full HTML tempalte
 		- Type ! and Tab or Type HTML:5 and Tab
+	- script:src -> <script src=""></script> 
+
