@@ -22,10 +22,10 @@ Boilerplate for Projects
 
 
 # Initializing
-- npm init
+- npm init //this will create package.json
 - npm install express -save
 - npm install bower --save
-
+- bower init //this will create bower.json
 - bower install angular --save
 - bower install bootstrap --save
 - add .gitignore

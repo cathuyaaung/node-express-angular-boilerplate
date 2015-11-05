@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate",
+  "description": "boilerplate",
+  "main": "server.js",
+  "authors": [
+    "thomasthuyaaung"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thomasthuyaaung/Node-Express-Angular-Boilerplate",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  }
+}
