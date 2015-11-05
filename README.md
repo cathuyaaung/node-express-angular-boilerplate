@@ -94,3 +94,11 @@ Boilerplate for Projects
 		- Type ! and Tab or Type HTML:5 and Tab
 	- script:src -> <script src=""></script> 
 
+2. (Update NodeJS and NPM)[https://davidwalsh.name/upgrade-nodejs]
+
+	```
+	sudo npm cache clean -f
+	sudo npm install -g n
+	sudo n stable
+	```	
+
