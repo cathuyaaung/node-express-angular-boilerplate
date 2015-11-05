@@ -53,3 +53,31 @@ https://www.udemy.com/learn-angularjs/learn/#/
 	});
 	```
 
+# HTML boilerplate with Bootstrap 3, jQuery, AngularJS from bower_components
+	```HTML
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Creating a directive</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<!-- Bootstrap Theme -->
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		<script src="/bower_components/angular/angular.min.js"></script>
+	</head>
+	<body>
+		
+
+		<!-- jQuery -->
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- Bootstrap Javascript -->
+		<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+	</html>	
+	```
+
+# Tips
+1. Sublime Text
+	1. Create full HTML tempalte
+		- Type ! and Tab or Type HTML:5 and Tab
