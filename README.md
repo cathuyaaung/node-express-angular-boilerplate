@@ -4,6 +4,13 @@ Boilerplate for Projects
 - Has Bootstrap3, AngularJS, jQuery
 - Has starting empty HTML template
 
+# How to use
+1. git clone
+2. npm install
+3. bower install
+4. node server.js
+5. browser-sync start --files="\*\*/\*" --proxy="localhost:3000"
+
 
 # Git: How to create Repositary from Existing Folder
 - cd <localdir>
